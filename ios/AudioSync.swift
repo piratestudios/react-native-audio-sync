@@ -6,7 +6,18 @@ import Foundation
 class AudioSync: NSObject {
 
   @objc(calculateSyncOffset:audioFile2Path:withResolver:withRejecter:)
-  func calculateSyncOffset(
+    func calculateSyncOffset(
+        _ audioFile1Path: NSString,
+        _ audioFile2Path: NSString,
+        _ resolve: RCTPromiseResolveBlock,
+        _ reject: RCTPromiseRejectBlock
+    ) -> Void {
+        let syncOffset = getSyncOffsetBetweenAudioFiles(audioFile1Path, audioFile2Path)
+        
+        resolve(["syncOffset": syncOffset ?? 0.0])
+    }
+    
+  func getSyncOffsetBetweenAudioFiles(
     _ audioFile1Path: NSString,
     _ audioFile2Path: NSString
   ) -> Double? {
