@@ -17,9 +17,13 @@ const AudioSync = NativeModules.AudioSync
       }
     );
 
+export type AudioSyncResult = {
+  syncOffset: number;
+};
+
 export function calculateSyncOffset(
   audioFile1: string,
   audioFile2: string
-): Promise<number> {
+): Promise<AudioSyncResult> {
   return AudioSync.calculateSyncOffset(audioFile1, audioFile2);
 }
