@@ -15,6 +15,11 @@
 		7699B88040F8A987B510C191 /* libPods-AudioSyncExample-AudioSyncExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AudioSyncExample-AudioSyncExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		935E3EA77AB30704D179EFC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 37790E30993F484D55DE767C /* PrivacyInfo.xcprivacy */; };
+		FF1E91A72BF8DF4D003F1951 /* audioFile4.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF1E91A22BF8DF4D003F1951 /* audioFile4.wav */; };
+		FF1E91A82BF8DF4D003F1951 /* audioFile5.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF1E91A32BF8DF4D003F1951 /* audioFile5.wav */; };
+		FF1E91A92BF8DF4D003F1951 /* audioFile1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF1E91A42BF8DF4D003F1951 /* audioFile1.wav */; };
+		FF1E91AA2BF8DF4D003F1951 /* audioFile3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF1E91A52BF8DF4D003F1951 /* audioFile3.wav */; };
+		FF1E91AB2BF8DF4D003F1951 /* audioFile2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF1E91A62BF8DF4D003F1951 /* audioFile2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AudioSyncExample/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = AudioSyncExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AudioSyncExample-AudioSyncExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AudioSyncExample-AudioSyncExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37790E30993F484D55DE767C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = AudioSyncExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		37790E30993F484D55DE767C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = AudioSyncExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AudioSyncExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioSyncExample.debug.xcconfig"; path = "Target Support Files/Pods-AudioSyncExample/Pods-AudioSyncExample.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AudioSyncExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioSyncExample.release.xcconfig"; path = "Target Support Files/Pods-AudioSyncExample/Pods-AudioSyncExample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AudioSyncExample-AudioSyncExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioSyncExample-AudioSyncExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-AudioSyncExample-AudioSyncExampleTests/Pods-AudioSyncExample-AudioSyncExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AudioSyncExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AudioSyncExample-AudioSyncExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioSyncExample-AudioSyncExampleTests.release.xcconfig"; path = "Target Support Files/Pods-AudioSyncExample-AudioSyncExampleTests/Pods-AudioSyncExample-AudioSyncExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FF1E91A22BF8DF4D003F1951 /* audioFile4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioFile4.wav; sourceTree = "<group>"; };
+		FF1E91A32BF8DF4D003F1951 /* audioFile5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioFile5.wav; sourceTree = "<group>"; };
+		FF1E91A42BF8DF4D003F1951 /* audioFile1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioFile1.wav; sourceTree = "<group>"; };
+		FF1E91A52BF8DF4D003F1951 /* audioFile3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioFile3.wav; sourceTree = "<group>"; };
+		FF1E91A62BF8DF4D003F1951 /* audioFile2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioFile2.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +131,11 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FF1E91A42BF8DF4D003F1951 /* audioFile1.wav */,
+				FF1E91A62BF8DF4D003F1951 /* audioFile2.wav */,
+				FF1E91A52BF8DF4D003F1951 /* audioFile3.wav */,
+				FF1E91A22BF8DF4D003F1951 /* audioFile4.wav */,
+				FF1E91A32BF8DF4D003F1951 /* audioFile5.wav */,
 				13B07FAE1A68108700A75B9A /* AudioSyncExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AudioSyncExampleTests */,
@@ -246,9 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1E91A72BF8DF4D003F1951 /* audioFile4.wav in Resources */,
+				FF1E91A82BF8DF4D003F1951 /* audioFile5.wav in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FF1E91AA2BF8DF4D003F1951 /* audioFile3.wav in Resources */,
 				935E3EA77AB30704D179EFC2 /* PrivacyInfo.xcprivacy in Resources */,
+				FF1E91AB2BF8DF4D003F1951 /* audioFile2.wav in Resources */,
+				FF1E91A92BF8DF4D003F1951 /* audioFile1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,10 +610,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -665,10 +682,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
