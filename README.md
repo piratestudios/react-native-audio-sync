@@ -49,7 +49,10 @@ audioFile1;
 - subdividing again, audioFile1 and audioFile4 should have a time offset of -1.75s, and finally;
 - audioFile5, starting a full bar after audioFile1, will have a time offset of -4s.
 
-For good measure, based on these predictions, we can also easily imagine that audioFile4 starts 0.25s _after_ audioFile3
+For good measure, we can therefore also easily predict that audioFile4 starts 0.25s _after_ audioFile3.
+
+To confirm these predictions, running the example app in the iOS simulator should give the following result:
+![example-ios-simulator.png](example-ios-simulator.png)
 
 ## Contributing
 
