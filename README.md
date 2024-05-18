@@ -1,6 +1,11 @@
 # react-native-audio-sync
 
-Native iOS function to determine the synchronisation offset between two largely similar audio files
+Native iOS function to determine the synchronisation offset between two substantially similar audio files.
+Android not implemented (yet).
+
+The underlying Swift code leverages Apple's Accelerate framework, in particular the
+[vDSP_conv](https://developer.apple.com/documentation/accelerate/1450516-vdsp_conv) function, to perform a
+cross-correlation in order to determine the time difference of the first input relative to the second.
 
 ## Installation
 
