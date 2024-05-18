@@ -18,14 +18,17 @@ npm install react-native-audio-sync
 Outputs the time difference of the first input relative to the second - a negative output indicates that audioFile1 is
 lagging behind audioFile2.
 
-```js
-import { calculateSyncOffset } from 'react-native-audio-sync';
+```typescript
+import {
+  type AudioSyncResult,
+  calculateSyncOffset,
+} from 'react-native-audio-sync';
 
 calculateSyncOffset(
   `/path/to/audio/files/audioFile1.wav`,
   '/path/to/audio/files/audioFile2.wav'
 )
-  .then(({syncOffset}) => {
+  .then(({syncOffset}: AudioSyncResult) => {
     console.log(`syncOffset: ${syncOffset}`);
   });
 ```
