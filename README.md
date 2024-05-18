@@ -20,7 +20,7 @@ lagging behind audioFile2.
 
 ```typescript
 import {
-  type AudioSyncResult,
+  type SyncOffsetResult,
   calculateSyncOffset,
 } from 'react-native-audio-sync';
 
@@ -28,7 +28,7 @@ calculateSyncOffset(
   `/path/to/audio/files/audioFile1.wav`,
   '/path/to/audio/files/audioFile2.wav'
 )
-  .then(({syncOffset}: AudioSyncResult) => {
+  .then(({syncOffset}: SyncOffsetResult) => {
     console.log(`syncOffset: ${syncOffset}`);
   });
 ```

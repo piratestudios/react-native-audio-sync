@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
 import {
-  type AudioSyncResult,
+  type SyncOffsetResult,
   calculateSyncOffset,
 } from 'react-native-audio-sync';
 
@@ -19,31 +19,31 @@ export default function App() {
     calculateSyncOffset(
       `${RNFS.MainBundlePath}/audioFile1.wav`,
       `${RNFS.MainBundlePath}/audioFile2.wav`
-    ).then(({ syncOffset }: AudioSyncResult) => {
+    ).then(({ syncOffset }: SyncOffsetResult) => {
       setResultOne(syncOffset);
     });
     calculateSyncOffset(
       `${RNFS.MainBundlePath}/audioFile1.wav`,
       `${RNFS.MainBundlePath}/audioFile3.wav`
-    ).then(({ syncOffset }: AudioSyncResult) => {
+    ).then(({ syncOffset }: SyncOffsetResult) => {
       setResultTwo(syncOffset);
     });
     calculateSyncOffset(
       `${RNFS.MainBundlePath}/audioFile1.wav`,
       `${RNFS.MainBundlePath}/audioFile4.wav`
-    ).then(({ syncOffset }: AudioSyncResult) => {
+    ).then(({ syncOffset }: SyncOffsetResult) => {
       setResultThree(syncOffset);
     });
     calculateSyncOffset(
       `${RNFS.MainBundlePath}/audioFile1.wav`,
       `${RNFS.MainBundlePath}/audioFile5.wav`
-    ).then(({ syncOffset }: AudioSyncResult) => {
+    ).then(({ syncOffset }: SyncOffsetResult) => {
       setResultFour(syncOffset);
     });
     calculateSyncOffset(
       `${RNFS.MainBundlePath}/audioFile4.wav`,
       `${RNFS.MainBundlePath}/audioFile3.wav`
-    ).then(({ syncOffset }: AudioSyncResult) => {
+    ).then(({ syncOffset }: SyncOffsetResult) => {
       setResultFive(syncOffset);
     });
   }, []);
