@@ -48,7 +48,13 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 
 ## License
 
-MIT
+MIT License
+
+Copyright (c) 2024 Daniel Kay
+
+Contains Swift code which was ported from an original objC implementation
+Copyright (c) 2015 Patrik Vaberer
+https://github.com/Vaberer/audio_time_shifting/
 
 ---
 
