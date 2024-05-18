@@ -1,3 +1,7 @@
+import Accelerate
+import AVFoundation
+import Foundation
+
 @objc(AudioSync)
 class AudioSync: NSObject {
 
