@@ -11,11 +11,14 @@ npm install react-native-audio-sync
 ## Usage
 
 ```js
-import { multiply } from 'react-native-audio-sync';
+import { calculateSyncOffset } from 'react-native-audio-sync';
 
 // ...
 
-const result = await multiply(3, 7);
+calculateSyncOffset('audioFile1.wav', 'audioFile2.wav')
+  .then(({syncOffset}) => {
+    console.log(`syncOffset: ${syncOffset}`);
+  });
 ```
 
 ## Contributing
