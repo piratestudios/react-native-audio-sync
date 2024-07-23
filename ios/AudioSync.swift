@@ -117,6 +117,9 @@ class AudioSync: NSObject {
 
     // create a pointer to the same memory address as audioFile1NewBufferPointer but shifted by audioFile2BufferSizeWithoutPadding instances
     let audioFile1ShiftedBufferPointer: UnsafeMutablePointer<Float> = audioFile1NewBufferPointer.advanced(by: audioFile2BufferSizeWithoutPadding)
+ 
+    print("audioFile1BufferPaddingCount is \(audioFile1BufferPaddingCount)")
+    print("audioFile2BufferPaddingCount is \(audioFile2BufferPaddingCount)")
 
     // populate shifted buffer with data from the audioFile1SamplePointer
     var i = audioFile1BufferPaddingCount * 2
